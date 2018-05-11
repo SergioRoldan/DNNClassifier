@@ -1,0 +1,13 @@
+accuracy 0.9931857
+average_loss 0.026058927
+loss 0.6373579
+global_step 2500
+accuracy 0.759375
+average_loss 2.6844354
+loss 66.07841
+global_step 2500
+accuracy 0.67701864
+average_loss 3.6399846
+loss 83.71965
+global_step 2500
+

@@ -1,0 +1,192 @@
+{
+    "isFlippedHorizontal": 0,
+    "objectID": "39412F2C-DA8D-4B57-B1B9-52A110504041",
+    "rotation": 0,
+    "frame": {
+        "y": 106,
+        "<class>": "MSRect",
+        "constrainProportions": 0,
+        "height": 40,
+        "width": 550,
+        "x": 50
+    },
+    "glyphBounds": {
+        "y": 0,
+        "x": 0,
+        "width": 550,
+        "height": 40
+    },
+    "layerListExpandedType": 0,
+    "exportOptions": {
+        "shouldTrim": 0,
+        "<class>": "MSExportOptions",
+        "includedLayerIds": [],
+        "layerOptions": 0,
+        "exportFormats": []
+    },
+    "style": {
+        "sharedObjectID": "DE7F560C-07DF-4A7C-A810-A51472C0BB67",
+        "textStyle": {
+            "<class>": "MSTextStyle",
+            "MSAttributedStringColorAttribute": {
+                "<class>": "MSImmutableColor",
+                "value": "#4A4A4A"
+            },
+            "NSFont": {
+                "name": "Avenir Next Regular",
+                "attributes": {
+                    "NSFontSizeAttribute": 14,
+                    "NSFontNameAttribute": "AvenirNext-Regular"
+                },
+                "family": "Avenir Next"
+            },
+            "NSParagraphStyle": {
+                "<class>": "NSMutableParagraphStyle",
+                "style": {
+                    "headerLevel": 0,
+                    "paragraphSpacing": 10,
+                    "tabStops": [
+                        28,
+                        56,
+                        84,
+                        112,
+                        140,
+                        168,
+                        196,
+                        224,
+                        252,
+                        280,
+                        308,
+                        336
+                    ],
+                    "headIndent": 0,
+                    "lineBreakMode": 0,
+                    "hyphenationFactor": 0,
+                    "alignment": 4,
+                    "paragraphSpacingBefore": 0,
+                    "tailIndent": 0,
+                    "firstLineHeadIndent": 0,
+                    "minimumLineHeight": 20,
+                    "lineSpacing": 0,
+                    "maximumLineHeight": 20,
+                    "lineHeightMultiple": 0,
+                    "baseWritingDirection": -1,
+                    "defaultTabInterval": 0
+                }
+            }
+        },
+        "borderOptions": {
+            "lineJoinStyle": 0,
+            "<class>": "MSStyleBorderOptions",
+            "isEnabled": 0,
+            "lineCapStyle": 0,
+            "dashPattern": []
+        },
+        "objectID": "AAF0E3D1-39FB-48D8-959E-E03FB56840D4",
+        "endDecorationType": 0,
+        "contextSettings": {
+            "<class>": "MSGraphicsContextSettings",
+            "opacity": 1,
+            "blendMode": 0
+        },
+        "blur": {
+            "radius": 10,
+            "<class>": "MSStyleBlur",
+            "motionAngle": 0,
+            "isEnabled": 0,
+            "type": 0,
+            "center": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "<class>": "MSStyle",
+        "fills": [],
+        "miterLimit": 10,
+        "colorControls": {
+            "hue": 0,
+            "<class>": "MSStyleColorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "isEnabled": 0,
+            "saturation": 1
+        },
+        "innerShadows": [],
+        "borders": [],
+        "startDecorationType": 0,
+        "shadows": []
+    },
+    "dontSynchroniseWithSymbol": 0,
+    "lineSpacingBehaviour": 0,
+    "textBehaviour": 1,
+    "isFlippedVertical": 0,
+    "resizingType": 0,
+    "<class>": "MSTextLayer",
+    "isVisible": 1,
+    "nameIsFixed": 0,
+    "name": "This is a collection",
+    "isLocked": 0,
+    "attributedString": {
+        "<class>": "NSConcreteAttributedString",
+        "value": {
+            "<class>": "NSConcreteAttributedString",
+            "text": "This is a collection of symbols for quickly mocking up web applications, created by your friends at Bohemian Coding and released under the MIT license.",
+            "attributes": [
+                {
+                    "NSFont": {
+                        "name": "Avenir Next Regular",
+                        "attributes": {
+                            "NSFontSizeAttribute": 14,
+                            "NSFontNameAttribute": "AvenirNext-Regular"
+                        },
+                        "family": "Avenir Next"
+                    },
+                    "MSAttributedStringColorAttribute": {
+                        "<class>": "MSImmutableColor",
+                        "value": "#4A4A4A"
+                    },
+                    "length": 151,
+                    "NSParagraphStyle": {
+                        "<class>": "NSMutableParagraphStyle",
+                        "style": {
+                            "headerLevel": 0,
+                            "paragraphSpacing": 10,
+                            "tabStops": [
+                                28,
+                                56,
+                                84,
+                                112,
+                                140,
+                                168,
+                                196,
+                                224,
+                                252,
+                                280,
+                                308,
+                                336
+                            ],
+                            "headIndent": 0,
+                            "lineBreakMode": 0,
+                            "hyphenationFactor": 0,
+                            "alignment": 4,
+                            "paragraphSpacingBefore": 0,
+                            "tailIndent": 0,
+                            "firstLineHeadIndent": 0,
+                            "minimumLineHeight": 20,
+                            "lineSpacing": 0,
+                            "maximumLineHeight": 20,
+                            "lineHeightMultiple": 0,
+                            "baseWritingDirection": -1,
+                            "defaultTabInterval": 0
+                        }
+                    },
+                    "location": 0,
+                    "text": "This is a collection of symbols for quickly mocking up web applications, created by your friends at Bohemian Coding and released under the MIT license."
+                }
+            ]
+        }
+    },
+    "shouldBreakMaskChain": 0,
+    "resizingConstraint": 63,
+    "automaticallyDrawOnUnderlyingPath": 0
+}

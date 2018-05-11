@@ -1,0 +1,4 @@
+Predicted number of classes: 15
+Predicted correctly: 10.201784124541385
+Predicted incorrectly: 4.7982158754586175
+Not confused %: 68.01189416360924%

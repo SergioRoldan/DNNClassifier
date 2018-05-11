@@ -1,0 +1,22 @@
+- Keys:  isFlippedHorizontal
+- Keys:  objectID
+- Keys:  horizontalRulerData
+/ Keys:  frame [(w,h) all page]
+- Keys:  hasClickThrough
+- Keys:  includeInCloudUpload
+- Keys:  exportOptions
+- Keys:  rotation
+- Keys:  layerListExpandedType
+- Keys:  style
+- Keys:  verticalRulerData
+- Keys:  isFlippedVertical
+- Keys:  resizingType
++ Keys:  <class>
++ Keys:  layers
+- Keys:  isVisible
+- Keys:  nameIsFixed
+- Keys:  grid
++ Keys:  name
+- Keys:  isLocked
+- Keys:  shouldBreakMaskChain
+- Keys:  resizingConstraint

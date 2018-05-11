@@ -1,0 +1,18 @@
+Training metrics:
+accuracy 0.9869774
+average_loss 0.055578995
+loss 1.9307084
+global_step 2001
+
+Validation metrics:
+accuracy 0.89572865
+average_loss 0.8257882
+loss 28.579453
+global_step 2001
+
+Test metrics:
+accuracy 0.8869347
+average_loss 0.8288167
+loss 27.489088
+global_step 2001
+

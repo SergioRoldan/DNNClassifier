@@ -1,0 +1,12 @@
+tags_model/consumed/
+groups_model/consumed/
+groups_model/trash/
+groups_model/__pycache__/
+serving_tags_model/node_modules/
+serving_tags_model/model/__pycache__/
+serving_tags_model/package-lock.json
+client_tags_model/__pycache__/
+client_tags_model/JSONs/*.json
+tags_model/dataset/JSONs/*.json
+trash/
+.vscode/

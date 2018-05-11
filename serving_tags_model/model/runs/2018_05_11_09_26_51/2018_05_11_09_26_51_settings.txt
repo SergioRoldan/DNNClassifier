@@ -1,0 +1,14 @@
+{
+    "batch_size": 35,
+    "hidden_units": [
+        10,
+        10,
+        10,
+        10
+    ],
+    "learning_rate": 0.02,
+    "periods": 25,
+    "save_dir": "runs/2018_05_11_09_26_51/",
+    "steps": 2000,
+    "time": "2018_05_11_09_26_51"
+}

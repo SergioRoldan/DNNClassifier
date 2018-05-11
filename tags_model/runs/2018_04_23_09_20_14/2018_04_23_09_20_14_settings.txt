@@ -1,0 +1,1 @@
+{'learning_rate': 7.8e-05, 'steps': 2000, 'batch_size': 20, 'periods': 20, 'hidden_units': [10, 10, 10, 10]}
