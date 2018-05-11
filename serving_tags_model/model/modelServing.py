@@ -250,7 +250,7 @@ if __name__ == '__main__':
         print('--port=X ; defaults to 7999')
         sys.exit('--directory=X ; defaults to runs/')
 
-    learning_rate =0.002
+    learning_rate =0.018
     batch_size = 45
     steps = 2000
     hidden_layers = [

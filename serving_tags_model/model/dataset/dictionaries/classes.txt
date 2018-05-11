@@ -1,2 +1,2 @@
 
-'msbitmaplayer','msrect','msshapegroup','mstextlayer','none'
+'msbitmaplayer','msrect','msshapegroup','mstextlayer'

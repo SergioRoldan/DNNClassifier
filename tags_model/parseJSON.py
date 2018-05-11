@@ -197,19 +197,20 @@ def run():
         if group_ins:
 
             tmp_instance = _parseSymbolInstance(group_ins)
+            print(tmp_instance)
 
-            tmp_instances = generateRandomInstances(tmp_instance)
-            tmp_instances.append(tmp_instance)
+            #tmp_instances = generateRandomInstances(tmp_instance)
+            #tmp_instances.append(tmp_instance)
 
-            for ins in tmp_instances:
-                saved = False
-                for _class in _classes:
-                    if _class in ins['name'].lower():
-                        _saveJSON(ins)
-                        saved = True
-                if not saved:
-                    if rand.randrange(0,100) > 60:
-                        _saveJSON(ins)
+            #for ins in tmp_instances:
+            saved = False
+            for _class in _classes:
+                if _class in tmp_instance['name'].lower():
+                    _saveJSON(tmp_instance)
+                    saved = True
+            if not saved:
+                if rand.randrange(0,100) > 60:
+                    _saveJSON(tmp_instance)
             
             
 

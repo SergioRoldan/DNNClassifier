@@ -13,6 +13,8 @@ import tensorflow as tf
 from IPython import display
 from sklearn import metrics
 
+from operator import itemgetter
+
 import dataHandler as dH
 
 # Define verbosity
@@ -299,6 +301,9 @@ def train_DNN_classification_model(
 
     bound_width = get_quantile_based_buckets(widthPandas, 25)[0].tolist()
     bound_height = get_quantile_based_buckets(heightPandas, 25)[0].tolist()
+
+    bound_width = sorted(list(set(bound_width)))
+    bound_height = sorted(list(set(bound_height)))
 
     height_numeric_column = tf.feature_column.numeric_column(
         'insFrameHeight', shape=1)
