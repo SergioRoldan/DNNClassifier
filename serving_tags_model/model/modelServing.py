@@ -243,16 +243,16 @@ if __name__ == '__main__':
     if '--help' in args or 'help' in args:
         print('Arguments format -> --arg1=val1 --arg2=val2 ...')
         print('--learning-rate=X ; defaults to 0.000862')
-        print('--batch-size=X ; defaults to 35')
+        print('--batch-size=X ; defaults to 45')
         print('--steps=X ; defaults to 2000')
-        print('-hidden-layers=X ; defaults to 2000')
+        print('-hidden-layers=X ; defaults to 5 hidden layers with 10 node each')
         print('--periods=X ; defaults to 15')
         print('--port=X ; defaults to 7999')
         sys.exit('--directory=X ; defaults to runs/')
 
-    learning_rate =0.024
+    learning_rate =0.002
     batch_size = 45
-    steps = 2500
+    steps = 2000
     hidden_layers = [
         10,
         10,
@@ -260,7 +260,7 @@ if __name__ == '__main__':
         10,
         10
     ]
-    periods = 35
+    periods = 30
     directory = 'runs/' + now
     port = 7999
 
@@ -294,6 +294,14 @@ if __name__ == '__main__':
         print(str(e))   
         directory = 'runs/' + now
         pass
+
+    print('Training parameters: ')
+    print(' - learning_rate: ', learning_rate)
+    print(' - steps: ', steps)
+    print(' - mini_batch_size: ', batch_size)
+    print(' - periods: ', periods)
+    print(' - hidden_layers', hidden_layers)
+    print(' - Optimizer: Nesterov Momentum with lambda = 0.9 and clipping = 3')
 
     classifier, metrics_dir = DNNC.train_and_evaluate(
         learning_rate, steps, batch_size, periods, hidden_layers, directory + '/')
