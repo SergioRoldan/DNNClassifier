@@ -1,0 +1,137 @@
+{
+  "isFlippedHorizontal" : 0,
+  "verticalSpacing" : 0,
+  "style" : {
+    "borderOptions" : {
+      "lineJoinStyle" : 0,
+      "<class>" : "MSStyleBorderOptions",
+      "isEnabled" : 0,
+      "lineCapStyle" : 0,
+      "dashPattern" : [
+
+      ]
+    },
+    "endDecorationType" : 0,
+    "contextSettings" : {
+      "<class>" : "MSGraphicsContextSettings",
+      "opacity" : 1,
+      "blendMode" : 0
+    },
+    "blur" : {
+      "radius" : 10,
+      "<class>" : "MSStyleBlur",
+      "motionAngle" : 0,
+      "isEnabled" : 0,
+      "type" : 0,
+      "center" : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    "<class>" : "MSStyle",
+    "miterLimit" : 10,
+    "startDecorationType" : 0,
+    "colorControls" : {
+      "hue" : 0,
+      "<class>" : "MSStyleColorControls",
+      "brightness" : 0,
+      "contrast" : 1,
+      "isEnabled" : 0,
+      "saturation" : 1
+    }
+  },
+  "rotation" : 0,
+  "frame" : {
+    "y" : -1,
+    "<class>" : "MSRect",
+    "constrainProportions" : 0,
+    "height" : 108,
+    "width" : 1440,
+    "x" : -1
+  },
+  "symbolID" : "A56D4DE3-E583-40EB-9437-AD8FDEC26682",
+  "isFlippedVertical" : 0,
+  "<class>" : "MSSymbolInstance",
+  "isVisible" : 1,
+  "nameIsFixed" : 0,
+  "name" : "Header",
+  "horizontalSpacing" : 0,
+  "scale" : 1,
+  "overrideValues" : []
+}, {
+  "isFlippedHorizontal" : 0,
+  "verticalSpacing" : 0,
+  "style" : {
+    "borderOptions" : {
+      "lineJoinStyle" : 0,
+      "<class>" : "MSStyleBorderOptions",
+      "isEnabled" : 0,
+      "lineCapStyle" : 0,
+      "dashPattern" : [
+
+      ]
+    },
+    "objectID" : "BBD7AC23-23C9-4341-96BC-4A662FF68732",
+    "endDecorationType" : 0,
+    "contextSettings" : {
+      "<class>" : "MSGraphicsContextSettings",
+      "opacity" : 1,
+      "blendMode" : 0
+    },
+    "blur" : {
+      "radius" : 10,
+      "<class>" : "MSStyleBlur",
+      "motionAngle" : 0,
+      "isEnabled" : 0,
+      "type" : 0,
+      "center" : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    "<class>" : "MSStyle",
+    "fills" : [
+
+    ],
+    "miterLimit" : 10,
+    "colorControls" : {
+      "hue" : 0,
+      "<class>" : "MSStyleColorControls",
+      "brightness" : 0,
+      "contrast" : 1,
+      "isEnabled" : 0,
+      "saturation" : 1
+    },
+    "innerShadows" : [
+
+    ],
+    "borders" : [
+
+    ],
+    "startDecorationType" : 0,
+    "shadows" : [
+
+    ]
+  },
+  "rotation" : 0,
+  "frame" : {
+    "x" : -571,
+    "height" : 43,
+    "constrainProportions" : 0,
+    "y" : 618,
+    "<class>" : "MSRect",
+    "width" : 1440,
+    "objectID" : "DFD6856F-9773-47FA-9D99-79FDFA8B8356"
+  },
+  "symbolID" : "0277D5E0-2627-4D32-A711-F6C09F87AB65",
+  "isFlippedVertical" : 0,
+  "<class>" : "MSSymbolInstance",
+  "isVisible" : 1,
+  "nameIsFixed" : 0,
+  "name" : "Footer",
+  "horizontalSpacing" : 0,
+  "isLocked" : 0,
+  "scale" : 1,
+  "resizingConstraint" : 63,
+  "overrideValues" : []
+}, ...

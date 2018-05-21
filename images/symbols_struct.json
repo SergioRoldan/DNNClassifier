@@ -1,0 +1,39 @@
+symbolsStructure = {
+  "A56D4DE3-E583-40EB-9437-AD8FDEC26682":  {
+    "name": "header",
+    "classes": ["alwaysOnTop", "fullWidth", "withBorders"],
+    "innerComponents" : ["button", "tittle", "searchbar"]
+  },
+  "0277D5E0-2627-4D32-A711-F6C09F87AB65": {
+    "name": "footer",
+    "classes": ["alwaysOnBot", "fullWdith", "withBorders"],
+    "innerComponents" : ["button", "tittle", "input", "contact", "info", "icon"]
+  }
+}
+
+classes = {
+  "alwaysOnBot": {
+    "position": "fixed",
+    "bottom": "0"
+  },
+  "alwaysOnTop": {
+    "position": "fixed",
+    "top": "0"
+  },
+  "fullWdith": {
+    "width": "100%"
+  }
+}
+
+components = {
+  "button": {
+    "classes": ["round", "highlighted"],
+    "innerComponents": [],
+    "feat": []
+  },
+  "searchbar": {
+    "classes": ["round"],
+    "innerComponents": ["searchButton", "searchInput"],
+    "feat": ["hint"]
+  },
+}
